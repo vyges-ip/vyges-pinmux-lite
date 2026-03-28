@@ -1,0 +1,18 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "standalone"
+  repo: https://github.com/vyges/vyges-pinmux-lite
+  branch: main
+  commit: 1968e3de7063be23ccb48407389ecf4395aa3372
+  extracted_at: "2026-03-28T15:24:56Z"
+import:
+  rtl:
+    - path: "rtl"
+      map_to: "rtl"
+  license:
+    - path: "LICENSE"
+  readme:
+    - path: "README.md"
+license:
+  spdx: Apache-2.0
+  file: LICENSE
