@@ -3,7 +3,7 @@ upstream:
   type: "standalone"
   repo: https://github.com/vyges/vyges-pinmux-lite
   branch: main
-  commit: 3c0582ab8ad9dbb3c482e2dbaf4c87245d104066
+  commit: 25f1fe220496ba0bebe73bed8d173a7d4d58df19
   extracted_at: "2026-03-28T15:24:56Z"
 import:
   rtl:
